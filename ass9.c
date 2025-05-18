@@ -4,7 +4,7 @@
 void my_strcat(char *s1, char *s2);
 
 int main() {
-    char s1[2000], s2[1000];  // s1 needs enough space for both strings
+    char s1[2000], s2[1000];  
     
     printf("Enter the first string: ");
     fgets(s1, sizeof(s1), stdin);
